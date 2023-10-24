@@ -1,12 +1,18 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from streamlit_option_menu import option_menu
 
+
+with st.sidebar:
+selected = option_menu(
+menu_title = "",
+options =["Login","About","Projects"
 st.set_page_config(page_title="VGS Adventure India",page_icon="🚩")
 st.snow()
 st.header(":red[Vaibhav Borse] 😎")
 st.sidebar.title(":blue[Smartbyte Computer Education]")
-st.sidebar.text_input("Mail address")
+st.sidebar.text_input(":Mail Address")
 st.sidebar.text_input("Password")
 st.sidebar.button('Click here')
 st.sidebar.radio("Your age between",["5-10","11-15","16-20","21-25"])
