@@ -31,7 +31,6 @@ if selected == "Login page":
 
             username = st.text_input("enter the unique username")
             st.button("Create my account")
-
     app()
 
 if selected == "Projects":
