@@ -9,7 +9,7 @@ selected = option_menu(
 menu_title = "",
 options =["Login","About","Projects"]
 )
-}
+
 
 if == selected"Login":
 st.title(f""{selected}
