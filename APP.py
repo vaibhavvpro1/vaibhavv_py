@@ -7,7 +7,8 @@ from streamlit_option_menu import option_menu
 with st.sidebar:
 selected = option_menu(
 menu_title = "",
-options =["Login","About","Projects"
+options =["Login","About","Projects"]
+)
 st.set_page_config(page_title="VGS Adventure India",page_icon="🚩")
 st.snow()
 st.header(":red[Vaibhav Borse] 😎")
