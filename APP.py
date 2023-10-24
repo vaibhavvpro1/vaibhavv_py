@@ -9,7 +9,19 @@ selected = option_menu(
 menu_title = "",
 options =["Login","About","Projects"]
 )
+}
+
+if == selected"Login":
+st.title(f""{selected}
+
+if == selected"About":
+st.title(f""{selected}
+
+
+if == selected"Projects":
+st.title(f""{selected}
 st.set_page_config(page_title="VGS Adventure India",page_icon="🚩")
+
 st.snow()
 st.header(":red[Vaibhav Borse] 😎")
 st.sidebar.title(":blue[Smartbyte Computer Education]")
