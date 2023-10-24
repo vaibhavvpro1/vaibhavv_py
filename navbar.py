@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 
 
-
 from streamlit_option_menu import option_menu
 
 with st.sidebar:
@@ -50,4 +49,5 @@ if selected == "Projects":
 
 if selected == "Contacts":
     st.title(f"{selected}")
+
 
