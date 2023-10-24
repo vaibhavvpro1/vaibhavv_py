@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 st.set_page_config(page_title="VGS Adventure India",page_icon="🚩")
-# st.balloons()
+st.snow()
 st.header("Vaibhav Borse 😎")
 st.sidebar.title("Smartbyte Computer Education")
 st.sidebar.text_input("Mail address")
