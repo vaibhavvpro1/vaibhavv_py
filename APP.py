@@ -31,5 +31,4 @@ if st.button('Get results'):
     st.write(result)
 st.sidebar.file_uploader(":green[Upload your file/folder]")
 st.chat_input("Type here")
-st.status("Working")
 
