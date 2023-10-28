@@ -17,9 +17,6 @@ st.title("Line chart")
 st.line_chart(data)
 st.title("Area chart")
 st.area_chart(data)
-st.sidebar.file_uploader(":green[Upload your file/folder]")
-st.chat_input("Type here")
-st.status("Working")
 df = pd.DataFrame(columns=['name','age','color'])
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 config = {
@@ -32,3 +29,7 @@ result = st.data_editor(df, column_config = config, num_rows='dynamic')
 
 if st.button('Get results'):
     st.write(result)
+st.sidebar.file_uploader(":green[Upload your file/folder]")
+st.chat_input("Type here")
+st.status("Working")
+
