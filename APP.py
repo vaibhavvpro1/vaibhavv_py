@@ -2,7 +2,7 @@ import streamlit  as st
 import numpy as np
 import pandas as pd
 
-st.set_page_config(page_title="VGS Adventure India",page_icon="🚩")
+st.set_page_config(page_title="Vaibhav Borse",page_icon="🚩")
 st.header(":red[Vaibhav Borse] 😎")
 st.sidebar.title(":blue[vaibhav Computer Education]")
 st.sidebar.text_input(":Mail Address")
